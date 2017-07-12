@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "run-p *:watch",
+    "test": "jest",
+    "lint": "esw src",
+    "test:watch": "npm test -- --watch",
+    "lint:watch": "npm run lint -- --watch"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-watch": "^3.1.2",
+    "jest": "^20.0.4",
+    "npm-run-all": "^4.0.2"
+  }
+}
