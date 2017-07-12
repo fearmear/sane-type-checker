@@ -1,4 +1,4 @@
-var tc = new (require('./index'));
+var tc = require('./index');
 var isFunction = require('./isFunction');
 
 test('every method should exist on a class', () => {

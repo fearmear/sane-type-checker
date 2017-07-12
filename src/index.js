@@ -14,4 +14,4 @@ Object.assign(SaneTypeChecker.prototype, {
     isUndefined:require('./isUndefined')
 });
 
-module.exports = SaneTypeChecker;
+module.exports = new SaneTypeChecker;
